@@ -1,0 +1,100 @@
+#message {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 130px;
+    left: 54px;
+    right: 0;
+    width: 762px;
+    height: 28px;
+    color: #607D8B;
+    font-family: 'Muli', sans-serif;
+}
+.stacked-input {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    width: 700px;
+    border-radius: 11px;
+    border: 1px solid #90A4AE;
+    padding: 30px;
+    color: #607D8B;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+}
+#next {
+    position: absolute;
+    margin: auto;
+    top: 200px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 28px;
+    color: #607D8B;
+    height: 29px;
+    width: 24.5px;
+}
+#next:hover {
+    cursor: pointer;
+    color: #2196F3;
+    transition: 0.4s ease-in-out;
+}
+#next:not(:hover) {
+    color: #607D8B;
+    transition: 0.4s ease-in-out;
+}
+#submit {
+    position: absolute;
+    margin: auto;
+    top: 200px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 28px;
+    color: #607D8B;
+    height: 29px;
+    width: 24.5px;
+    visibility: hidden;
+}
+#submit:hover {
+    cursor: pointer;
+    color: #4CAF50;
+    transition: 0.4s ease-in-out;
+}
+#submit:not(:hover) {
+    color: #607D8B;
+    transition: 0.4s ease-in-out;
+}
+#body-dark {
+    background-color: #263238;
+}
+.stacked-input-dark {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    width: 700px;
+    border-radius: 11px;
+    border: 1px solid #90A4AE;
+    padding: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    background-color: #37474F;
+}
+.stacked-input-dark::placeholder {
+    color: #fff;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
